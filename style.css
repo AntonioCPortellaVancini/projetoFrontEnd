@@ -67,3 +67,13 @@ body {
     width: 29vw;
     display: block;
 }
+
+@media (max-width: 768px) {
+    .hero-logo img {
+        width: 70vw;
+    }
+
+    .hero-logo h1 {
+        font-size: 1rem;
+    }
+}
