@@ -98,3 +98,198 @@ body {
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
+/* Botão navbar */
+.navbar {
+    justify-content: space-between;
+}
+
+.btn-duvidas {
+    background-color: transparent;
+    color: #f5d000;
+    border: 2px solid #f5d000;
+    padding: 6px 16px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.btn-duvidas:hover {
+    background-color: #f5d000;
+    color: #000;
+}
+
+/* Página de dúvidas */
+.duvidas-main {
+    min-height: 100vh;
+    background-color: #0d1f14;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 20px 40px;
+}
+
+.duvidas-form {
+    background-color: #1a3d2b;
+    padding: 40px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.duvidas-form h2 {
+    color: #f5d000;
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+}
+
+.duvidas-form p {
+    color: #ccc;
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+
+.duvidas-form label {
+    color: #f5d000;
+    font-size: 0.9rem;
+}
+
+.duvidas-form input,
+.duvidas-form textarea {
+    background-color: #0d1f14;
+    border: 1px solid #f5d000;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.duvidas-form button {
+    background-color: #f5d000;
+    color: #000;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.duvidas-form button:hover {
+    background-color: #a85700;
+    color: #fff;
+}
+
+/* Página do artigo */
+.artigo-main {
+    background-color: #0d1f14;
+    padding: 80px 20px 60px;
+}
+
+.artigo {
+    max-width: 780px;
+    margin: 0 auto;
+    color: #e8e8e8;
+    line-height: 1.9;
+    font-size: 1rem;
+}
+
+.artigo h1 {
+    font-size: 2rem;
+    margin-bottom: 24px;
+    background: linear-gradient(to bottom, #f5d000, #a85700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.artigo h2 {
+    font-size: 1.3rem;
+    margin-top: 40px;
+    margin-bottom: 12px;
+    color: #f5d000;
+}
+
+.artigo p {
+    margin-bottom: 16px;
+}
+
+/* Formulário newsletter */
+.newsletter {
+    max-width: 780px;
+    margin: 60px auto 0;
+    border-top: 2px solid #f5d000;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.newsletter h2 {
+    color: #f5d000;
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+}
+
+.newsletter p {
+    color: #ccc;
+    margin-bottom: 24px;
+    font-size: 0.95rem;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 420px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.newsletter-form label {
+    color: #f5d000;
+    font-size: 0.9rem;
+}
+
+.newsletter-form input {
+    background-color: #1a3d2b;
+    border: 1px solid #f5d000;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 1rem;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.newsletter-form button {
+    background-color: #f5d000;
+    color: #000;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.newsletter-form button:hover {
+    background-color: #a85700;
+    color: #fff;
+}
+
+/* Confirmação newsletter */
+.newsletter-confirmacao {
+    display: none;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.newsletter-confirmacao p:first-child {
+    font-size: 1.3rem;
+    color: #f5d000;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.newsletter-confirmacao p:last-child {
+    color: #e8e8e8;
+    font-size: 1rem;
+}
